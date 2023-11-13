@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue: rgba(98, 0, 255, 0.837);
+    --white: white;    
+    --blue2: rgba(7, 7, 164, 0.529);
+    --blue3: hsla(250, 89%, 14%, 0.67);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: scroll;
+}    
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(240, 240, 240);
+   
+}
+   
+span {
+    display: block;
+}
+
+.score {
+    font-size: 13px;
+}
+.card1 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 2px solid var(--blue);
+    background:  var(--blue);
+    background-image: linear-gradient(var(--blue),var(--blue2));
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-style: bold;   
+    color: var(--white);
+    padding: 20px 20px 20px 5px;
+    display: grid;
+    gap: 10px;
+      
+}
+
+.body {
+    border: 1px hidden var(--blue);
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    background:  var(--blue);
+    background-image: linear-gradient(var(--blue2), var(--blue));
+    margin-left: 40px; 
+       
+}
+
+.font-size {
+    padding-top: 35px;
+    font-size: 60px;
+    text-align: center;
+    
+}
+ .font-size2 {
+    padding-top: 3px;
+    font-size: 13px;
+    }
+
+ #great {
+    font-size: 20px;
+ }
+.result, .font-size2, div .card1 :last-child, .opacity {
+    opacity: 0.5;
+}
+
+
+
+.card2{
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    height: 350px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: bold;  
+ }
+    
+
+
+.icons {
+    padding-top: 30px;
+    position: absolute;
+    list-style-type: none;
+    display: grid;
+    gap: 5px;   
+    font-size: 10px;
+    z-index: -1;
+}
+    
+
+ul {
+    
+    padding: 37px 0 0 35px;
+    position:absolute;
+    font-size: 13px;
+    list-style-type: none;
+}
+
+
+
+.fa-bolt {
+    width: 200px;
+    height: 40px;
+    background: rgb(245, 198, 198);  
+    color: red;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px hidden hsl(0, 100%, 50%);
+    border-radius:10px;
+    padding-left: 10px;
+   
+}
+
+   .reaction {
+    padding-top: 4px;
+    padding-left: 5px;
+   
+    }
+
+
+
+
+
+.fa-brain {
+    width: 200px;
+    height: 40px;
+    background: rgb(230, 230, 214);  
+    color: yellowgreen;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px hidden yellow(0, 100%, 50%);
+    border-radius:10px;
+    padding-left: 10px;
+}
+
+.memory, .verbal, .visual {
+    padding-top: 30px;
+    padding-left: 4px;
+}
+
+.fa-comment-dots {
+    width: 200px;
+    height: 40px;
+    background: rgb(183, 219, 183);  
+    color: green;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px hidden rgb(183, 219, 183);
+    border-radius:10px;
+    padding-left: 10px;
+}
+.verbal {
+    padding-top: 30px;
+    padding-left: 3px;
+    }
+
+.fa-eye {
+    width: 200px;
+    height: 40px;
+    background: rgb(118, 118, 224); 
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px hidden blue;
+    border-radius:10px;
+    padding-left: 10px;
+}
+.visual {
+    padding-top: 30px;
+    
+}
+
+ .button{
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--blue3);
+    background-color: var(--blue3);
+    color: var(--white);
+    border-radius: 20px;
+    display: flex; 
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 280px;
+ }
+
+    .text2{
+    list-style-type: none;
+    padding-left: 130px;
+       
+}
+ .reaction2 {
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+ }
+ .memory2, .verbal2, .visual2 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+ }
+
+
+
+
